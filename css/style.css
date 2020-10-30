@@ -24,12 +24,16 @@ a{
     text-decoration: none;
 }
 
+.logo{
+    padding-bottom: 19.4px;
+}
+
 nav{
     font-family: 'Special Elite', cursive;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
+    min-height: 10vh;
+    align-items: flex-end;
 }
 
 .navlinks{
@@ -38,7 +42,6 @@ nav{
     width: 40%;
     text-decoration: none;
     list-style: none;
-    margin-top: 8.5%;
 }
 
 .navlinks a{
