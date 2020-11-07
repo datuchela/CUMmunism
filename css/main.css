@@ -21,11 +21,7 @@ body{
 #logo{
     margin-left: 13%;
     margin-top: 0.8vh;
-    mask: url(/img/logo.svg);
-    display: inline-block;
-    height: 60px;
-    width: 72px;
-    background: red;
+    width: 65px;
 }
 
 .nav-links{
