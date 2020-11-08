@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #1a1a1a;
+    background-color: #0d0d0d;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -13,7 +13,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #313131;
+    background-color: #1a1a1a;
     height: 89px;
     max-height: 8vh;
 }
