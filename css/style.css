@@ -1,51 +1,25 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
+
 body{
-    background-color: black;
+    font-family: 'Special Elite', cursive;
 }
 
-#logo{
-    margin: 30px 0px 0px 30px;
-    width: 75px;
-    height: auto;
+header{
+    display: flex;
+    width: 90%;
+    margin: auto;
 }
 
-h1{
-    color: #D6C424;
-    font-size: 24px;
-    position: absolute;
-
-}
-
-a{
-    text-decoration: none;
-}
-
-.logo{
-    padding-bottom: 19.4px;
+.logo-container{
+    background-color: lightblue;
+    flex: 1;
 }
 
 nav{
-    font-family: 'Special Elite', cursive;
-    display: flex;
-    justify-content: space-around;
-    min-height: 10vh;
-    align-items: flex-end;
-}
-
-.navlinks{
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
-    text-decoration: none;
-    list-style: none;
-}
-
-.navlinks a{
-    color: #D6C424;
-    font-size: 18px;
-    font-weight: bold;
+    background-color: red;
+    flex: 1;
 }
