@@ -13,13 +13,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1a1a1a;
+    background-color: #313131;
     height: 89px;
     max-height: 8vh;
 }
 
 #logo{
-    margin-left: 14%;
+    margin-left: 13%;
     margin-top: 0.8vh;
     width: 65px;
 }
@@ -39,6 +39,11 @@ body{
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
+}
+
+.nav-link a:hover{
+    color: #ff6e6e;
+    transition: 500ms;
 }
 
 .search{
