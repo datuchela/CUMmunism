@@ -13,15 +13,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #313131;
-    height: 89px;
-    max-height: 8vh;
+    background-color: #1a1a1a;
+    height: 55px;
+    max-height: 30vh;
 }
 
 #logo{
-    margin-left: 13%;
-    margin-top: 0.8vh;
-    width: 65px;
+    margin-left: 1%;
+    margin-top: 0.75vh;
+    width: 50px;
+}
+
+#logo-shape{
+    transition: 800ms
+}
+
+#logo-shape:hover{
+    fill: #ff6e6e;
 }
 
 .nav-links{
@@ -37,32 +45,50 @@ body{
 .nav-link a{
     color: white;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 500ms
 }
 
 .nav-link a:hover{
     color: #ff6e6e;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid #292929;
+    border-radius: 13px;
+    background-color: #292929;
+    margin-right: 2%;
+}
+
+#search-txt{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 0px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+::placeholder{
+    color: #e0e0e0;
+}
+
+#search-btn{
+    width: 15px;
+    margin: 2.5px 10px 0px 0px;
+}
+
+#magnify{
     transition: 500ms;
 }
 
-.search{
-    margin-left: 7%;
-    border: 3px solid transparent;
-    border-radius: 10px;
-    padding: 6px 8px;
-    margin-right: 3%;
-    margin-top: 0.5vh;
-    background-color: #a1a1a1;
-    outline-style: none;
-    color: white;
-}
-
-#lupa{
-    position: absolute;
-    right: 3.7%;
-    top: 3.3%;
-    color: black;
-    z-index: 1;
-    width: 16px;
+#magnify:hover{
+    fill: #ff6e6e;
 }
