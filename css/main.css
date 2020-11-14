@@ -134,7 +134,7 @@ body{
 @media(max-width:900px){
 
     body{
-        overflow-y: hidden;
+        overflow-x: clip;
     }
 
     .nav-links{
@@ -146,7 +146,7 @@ body{
     }
 
     .search-box{
-        margin-right: 1.5rem;
+        margin-right: 2rem;
     }
 
         
