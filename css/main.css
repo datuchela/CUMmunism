@@ -134,7 +134,7 @@ body{
 @media(max-width:900px){
 
     body{
-        
+
     }
 
     .nav-links{
@@ -153,7 +153,7 @@ body{
 
     .logo{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         margin-right: 3rem;
     }
 

@@ -20,7 +20,7 @@ body{
     color: #dadada;
     font-size: .8rem;
     font-weight: 600;
-    margin: .1vh 0 1.7vh 0;
+    margin: 2.4vh 0 1.7vh 0;
     text-align: center;
 
 }
@@ -81,9 +81,19 @@ body{
 
 }
 
-.thumbnail{
-    width: 83.3%;
+.img-container{
+    width: 225px;
+    height: 281.5px;
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 13px;
+    overflow: hidden;
     margin: 18px 0 1.1vh 8.4%;
+
+}
+
+.thumbnail{
+    width: 100%;
+    padding-bottom: 50px;
 }
 
 .scroll{
