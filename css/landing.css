@@ -65,22 +65,22 @@ h3{
 }
 
 #yes{
-    border: 2px solid white;
+    border: 2px solid #a1a1a1;
     background-color: transparent;
     margin-left: 20px;
-    color: white;
+    color: #a1a1a1;
     transition: 500ms;
 }
 
 #no:hover{
-    background-color:#ff6e6e;
-    color: white;
-    border-color: transparent;
+    background-color: white;
+    color: black;
+    border-color: white;
 }
 
 #yes:hover{
-    border-color: #ff6e6e;
-    color: #ff6e6e;
+    border-color: #ffffff;
+    color: #ffffff;
 }
 
 
