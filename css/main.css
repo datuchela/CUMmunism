@@ -7,9 +7,11 @@
 
 body{
     background-color: #0d0d0d;
+    width: 100%;
+    overflow: hidden;
 }
 
-.navigation{
+header{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,6 +21,7 @@ body{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     width: 100%;
+    min-width: 560px;
 }
 
 .cummunism{
@@ -132,10 +135,146 @@ body{
 }
 
 
-@media(max-width:900px){
+
+/*  -  - - - - - Content - - - - - - */
+
+html{
+    font-size: 22px;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body{
+    background-color: #0d0d0d;
+    overflow-x: hidden;
+    width: 100%;
+} */
+
+.comics{
+    margin-bottom: 20vh;
+}
+
+.content-wrapper{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding-right: 1.5rem;
+    min-width: 560px;
+}
+
+.content{
+    margin: 13vh 0 0 30px;
+    max-width: initial;
+}
+
+.comic-card{
+    width: 270px;
+    height:352px;
+    background-color: #111111;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0px 4px 5px rgb(0, 0, 0);
+    display: inline-block;
+    transition: background-color, height, 400ms;
+    overflow: hidden;
+
+}
+
+.comic-card:hover{
+    background-color: #0f0f0f;
+    height:425px;
+    box-shadow: 0px -4px 10px rgb(0, 0, 0);
+}
+
+.thumbnail-wrapper{
+    width: 225px;
+    height: 281.5px;
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 13px;
+    overflow: hidden;
+    margin: 18px 0 1.1vh 8.4%;
+
+}
+
+.thumbnail{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+
+.comic-info{
+    flex-direction: column;
+    opacity: 1;
+    transition: 450ms;
+}
+
+
+.title{
+    color: #dadada;
+    font-size: .8rem;
+    font-weight: 600;
+    margin: 2.4vh 0 1.7vh 0;
+    text-align: center;
+
+}
+
+.artists-wrapper{
+    display: flex;
+    align-items: center;
+    margin-left: 29%;
+}
+
+.artists{
+    color: #747474;
+    font-size: .5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.artists-atr{
+    color: #a7a7a7;
+    font-size: .5rem;
+    font-weight: 500;
+    margin-left: .2rem;
+
+}
+
+.dv-wrapper{
+    display: flex;
+    align-items: center;
+    margin-left: 21%;
+}
+
+.data{
+    color: #626262;
+    font-size: .49rem;
+    font-weight: 600;
+    margin-right: .16rem;
+}
+
+.date{
+    text-transform: uppercase;
+}
+
+
+/*  - - - - - - Responsiveness - - - - - - */
+
+@media(max-width:920px){
 
     body{
         width: 100%;
+        overflow-y: visible;
     }
 
     .nav-links{
@@ -147,15 +286,54 @@ body{
     }
 
     .search-box{
-
     }
 
-        
+    header{
+        display: flex;
+    }
 
     .logo{
         display: flex;
         justify-content: center;
         margin-right: 3rem;
+    }
+
+    .thumbnail-wrapper{
+        margin: auto;
+        margin-top: 6vh;
+        margin-bottom: 5vh;
+    }
+
+    .thumbnail{
+        margin: auto;
+    }
+
+    .artists-wrapper{
+        margin-left: 31.5%;
+    }
+
+    .dv-wrapper{
+        margin-top: 0.7vh;
+        margin-left: 25%;
+    }
+
+    .comic-card{
+        height:490px;
+        width:320px;
+    }
+
+    .comic-card:hover{
+        background-color: #0f0f0f;
+        height:490px;
+        box-shadow: 0px -4px 10px rgb(0, 0, 0);
+    }
+
+    .content-wrapper{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
     }
 
 }
