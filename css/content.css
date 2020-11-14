@@ -33,15 +33,15 @@ body{
 
 .artists{
     color: #747474;
-    font-size: .500rem;
+    font-size: .5rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-top: 0.414vh;
+
 }
 
 .artists-atr{
     color: #a7a7a7;
-    font-size: .625rem;
+    font-size: .5rem;
     font-weight: 500;
     margin-left: .2rem;
 
