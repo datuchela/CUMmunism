@@ -134,7 +134,7 @@ body{
 @media(max-width:900px){
 
     body{
-        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .nav-links{
