@@ -111,14 +111,20 @@ body{
 .content-wrapper{
     flex-direction: row;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     display: inline-flex;
+    margin: auto;
 }
 
 
 .content{
-    margin: 13vh 0 2vh 0;
+    margin: 13vh 0 0 30px;
+    max-width: initial;
+}
+
+.comics{
+    margin-bottom: 20vh
 }
 
 
@@ -156,6 +162,8 @@ body{
     .content-wrapper{
         flex-direction: column;
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
 }
