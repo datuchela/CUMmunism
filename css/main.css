@@ -133,6 +133,10 @@ body{
 
 @media(max-width:900px){
 
+    body{
+        overflow-x: hidden;
+    }
+
     .nav-links{
         display: none;
     }
