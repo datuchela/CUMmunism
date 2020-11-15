@@ -1,8 +1,3 @@
-html, body {
-    max-width: 100%;
-}
-
-
 *{
     padding: 0px;
     margin: 0px;
@@ -23,10 +18,8 @@ header{
     background-color: #1a1a1a;
     height: 11vh;
     max-height: 11vh;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
     width: 100%;
-    min-width: 560px;
+    z-index: 1;
 }
 
 .cummunism{
@@ -185,7 +178,6 @@ html{
     width: 100%;
     display: flex;
     padding-right: 1.5rem;
-    min-width: 560px;
 }
 
 .content{
@@ -288,10 +280,19 @@ html{
 /*  - - - - - - Responsiveness - - - - - - */
 
 @media(max-width:920px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
 
     body{
         width: 100%;
         overflow-y: visible;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
     }
 
     .nav-links{
@@ -302,17 +303,41 @@ html{
         display: none;
     }
 
-    .search-box{
-    }
 
     header{
         display: flex;
+        justify-content: space-around;
+        min-width: 700px;
+        background-color: transparent;
     }
 
     .logo{
         display: flex;
+        margin-right: 2rem;
+        margin-left: 15.8rem;
+    }
+
+    .search-box{
+    }
+
+    .content-wrapper{
+        flex-direction: column;
+        text-align: center;
         justify-content: center;
-        margin-right: 3rem;
+        align-items: center;
+        min-width: 700px;
+        margin-left: 27.5%;
+    }
+
+    .comic-card{
+        height:490px;
+        width:320px;
+    }
+
+    .comic-card:hover{
+        background-color: #0f0f0f;
+        height:490px;
+        box-shadow: 0px -4px 10px rgb(0, 0, 0);
     }
 
     .thumbnail-wrapper{
@@ -332,26 +357,6 @@ html{
     .dv-wrapper{
         margin-top: 0.7vh;
         margin-left: 25%;
-    }
-
-    .comic-card{
-        height:490px;
-        width:320px;
-    }
-
-    .comic-card:hover{
-        background-color: #0f0f0f;
-        height:490px;
-        box-shadow: 0px -4px 10px rgb(0, 0, 0);
-    }
-
-    .content-wrapper{
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding-left: 50px;
-        padding-right: 50px;
     }
 
 }
