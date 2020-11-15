@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-        <link href="/css/main.css" rel="stylesheet">
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
-        <title>CUMmunism</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CUMmunism</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
 <body>
     <header>
-        <div class="navigation">
         <!-- LOGO SVG WITH A HREF WRAPPER -->
             
-                <a href="/main.html">
+                <a href="/content.html">
                     <svg class="logo" viewBox="0 0 60 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="logo">
                         <path id="logo-shape" d="M7.00276 15.0601C8.65562 16.7887 10.3085 18.5173 11.9613 20.2459C12.3429 20.1616 12.724 20.0772 13.1056 19.9932C14.3065 21.6234 15.5071 23.2536 16.708 24.8838C15.3648 26.376 14.0223 27.8689 12.6806 29.3631C10.3757 31.9297 8.07313 34.4979 5.77329 37.0685C12.4562 37.0685 19.1388 37.0685 25.8218 37.0685C26.1275 36.7644 26.4328 36.4607 26.7385 36.1566C27.0067 36.4233 27.2752 36.6905 27.5434 36.9573C32.1259 36.9573 36.708 36.9573 41.2905 36.9573C38.2909 33.9733 35.2909 30.989 32.2913 28.0051C35.0364 23.2828 37.7815 18.5601 40.527 13.8378C41.5161 13.3739 42.5047 12.9103 43.4938 12.4464C43.3382 10.3946 43.183 8.34284 43.0274 6.29106C42.6459 5.46195 42.2647 4.63283 41.8831 3.80372C41.3417 3.55911 40.4668 3.24917 39.3828 3.25578C38.6013 3.26045 37.8421 3.42883 35.9922 4.26767C34.9766 4.7285 33.615 5.39895 32.0509 6.33345C32.1357 6.99378 32.2205 7.6545 32.305 8.31483C29.2111 11.6737 26.1173 15.0325 23.0235 18.3913C22.4019 17.6326 21.7803 16.8735 21.1587 16.1148C21.3566 15.7636 21.5544 15.4121 21.7522 15.0609C21.4273 13.0795 21.1025 11.0977 20.7776 9.11633C19.9863 7.90767 19.1955 6.699 18.4043 5.49033C17.02 4.19728 15.6353 2.90461 14.251 1.61156C11.2702 5.36395 8.28932 9.11633 5.30847 12.8683C5.87258 13.5987 6.43748 14.3294 7.00276 15.0601Z" fill="#A1A1A1"/>
@@ -28,39 +26,98 @@
                         <path id="Vector_8" d="M16.3573 24.4071C17.9402 23.1918 19.5235 21.9769 21.1063 20.7616C19.6403 22.1356 18.1743 23.5095 16.7084 24.8838C16.5911 24.7248 16.4742 24.5657 16.3573 24.4071Z" fill="black"/>
                         </g>
                     </svg>
-                </a>
-                    
+                </a> 
+            
+            <a class="cummunism" href="/content.html">CUMmunism</a>
             
         <!-- END OF LOGO WRAPPER -->
             <nav>
                 <ul class="nav-links">
-                    <li class="nav-link"><a href="#">NavLink</a></li>
-                    <li class="nav-link"><a href="#">NavLink</a></li>
-                    <li class="nav-link"><a href="#">NavLink</a></li>
-                    <li class="nav-link"><a href="#">NavLink</a></li>
+                    <a class="nav-link" href="/content.html"><li>Main Page</li></a>
+                    <a class="nav-link" href="#"><li>About Us</li></a>
+                    <a class="nav-link" href="#"><li>Contribute</li></a>
                 </ul>
             </nav>
             <div class="search-box">
-            <input id="search-txt" type="text" placeholder="Search...">
+            <input id="search-txt" type="text">
             <a id="search-btn" href="#">
                 <svg class="lupa" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path id="magnify" d="M13.8393 11.868C16.2401 8.47789 15.4371 3.78357 12.047 1.38335C8.65687 -1.01686 3.96253 -0.214494 1.56231 3.1762C-0.837906 6.56632 -0.0355392 11.2601 3.35516 13.6603C5.77488 15.3734 8.97403 15.5053 11.5262 13.9981L17.0717 19.5103C17.6705 20.1406 18.6667 20.1658 19.297 19.567C19.9273 18.9688 19.9525 17.9726 19.3543 17.3423C19.3354 17.3223 19.3171 17.3039 19.297 17.285L13.8393 11.868ZM7.69621 12.3819C5.01725 12.3825 2.8453 10.2122 2.84358 7.53329C2.843 4.85434 5.01324 2.68239 7.69277 2.68125C10.3683 2.6801 12.5391 4.84688 12.5442 7.52239C12.5488 10.2019 10.3797 12.3773 7.69965 12.3819C7.6985 12.3819 7.69793 12.3819 7.69621 12.3819Z" fill="white"/>   
                 </svg>                   
             </a>
             </div>
-        </div>
     </header>
-    <div class="comics">
-        <section class="content-wrapper">
-            <article class="comic-container">
-                <a href="#" class="thumbnail">
-                    <img class="thumbnail-image" src="/img/gun.jpg" alt="thumbnail">
-                </a>
-                <div class="comic-side-section">
-                    <a href="#"></a>
+    <main>
+        <div class="comics">
+            <section class="content-wrapper">
+                <div class="content">
+                    <a class="comic-link" href="#">
+                        <div class="comic-card">
+                            <div class="thumbnail-wrapper">
+                                <img class="thumbnail" src="/img/gun1.png" alt="thumbnail">
+                            </div>
+                            <div class="comic-info">
+                                <p class="title">Comic Title</p>
+                                <div class="artists-wrapper">
+                                    <p class="artists">Artists:</p>
+                                    <span class="artists-atr">prichuda</span>
+                                </div>
+                                <div class="dv-wrapper">
+                                    <p class="data date">November 11, 2020</p>
+                                    <p class="data dot">·</p>
+                                    <p class="data views">69K views</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </article>
-        </section>
-    </div>
+
+                <div class="content">
+                    <a class="comic-link" href="#">
+                        <div class="comic-card">
+                            <div class="thumbnail-wrapper">
+                                <img class="thumbnail" src="/img/thicc.png" alt="thumbnail">
+                            </div>
+                            <div class="comic-info">
+                                <p class="title">Comic Title</p>
+                                <div class="artists-wrapper">
+                                    <p class="artists">Artists:</p>
+                                    <span class="artists-atr">prichuda</span>
+                                </div>
+                                <div class="dv-wrapper">
+                                    <p class="data date">November 11, 2020</p>
+                                    <p class="data dot">·</p>
+                                    <p class="data views">69K views</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="content">
+                    <a class="comic-link" href="#">
+                        <div class="comic-card">
+                            <div class="thumbnail-wrapper">
+                                <img class="thumbnail" src="/img/cum 1.png" alt="thumbnail">
+                            </div>
+                            <div class="comic-info">
+                                <p class="title">Comic Title</p>
+                                <div class="artists-wrapper">
+                                    <p class="artists">Artists:</p>
+                                    <span class="artists-atr">prichuda</span>
+                                </div>
+                                <div class="dv-wrapper">
+                                    <p class="data date">November 11, 2020</p>
+                                    <p class="data dot">·</p>
+                                    <p class="data views">69K views</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+<!-- <script type="text/javascript" src="app.js"></script> -->
 </body>
 </html>
