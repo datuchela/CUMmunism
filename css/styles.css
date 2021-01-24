@@ -152,6 +152,7 @@ main {
 
 .icons {
   margin-right: 1rem;
+  width: 30px;
 }
 
 /* ---- content ---- */
@@ -185,8 +186,8 @@ main {
 }
 
 .thumbnail-frame {
-  width: 150px;
-  height: 200px;
+  width: 9.375rem;
+  height: 12.5rem;
   border-radius: 13px;
   overflow: hidden;
   display: flex;
@@ -197,7 +198,7 @@ main {
 }
 
 .thumbnail {
-  height: 200px;
+  height: 12.5rem;
 }
 
 .content-info {
@@ -257,3 +258,12 @@ main {
 }
 
 /* -- ------- -- */
+
+@media (max-width: 1380px) {
+  html {
+    font-size: 12px;
+  }
+  .icons {
+    width: 25px;
+  }
+}
