@@ -2,24 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /*----------- */
-}
-
-.logo {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #cacaca;
-  text-decoration: none;
-}
-
-.logo:hover {
-  color: #30ff8f;
 }
 
 body {
   background-color: #0d0d0d;
   font-family: "Montserrat", sans-serif;
 }
+
+/* --- header --- */
 
 header {
   background-color: #1a1a1a;
@@ -36,6 +26,17 @@ header {
   min-height: 12vh;
   width: 93.5%;
   margin: auto;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #cacaca;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #30ff8f;
 }
 
 .navlinks {
@@ -60,29 +61,14 @@ header {
   width: 20%;
 }
 
+/* ---- aside --- */
+
 aside {
   background-color: #141414;
   display: flex;
   align-items: center;
   flex-direction: column;
   flex: 1;
-}
-
-.categories {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.category {
-  text-decoration: none;
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 4.5vh;
-  display: flex;
-  align-items: center;
 }
 
 .search {
@@ -122,12 +108,29 @@ aside {
   z-index: 1;
 }
 
+.categories {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.category {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 4.5vh;
+  display: flex;
+  align-items: center;
+}
+
 .main-section {
   flex: 4.5;
 }
 
 main {
-  height: 200vh;
+  min-height: 100vh;
   display: flex;
 }
 
@@ -181,6 +184,30 @@ main {
   background-color: #131313;
 }
 
+.thumbnail-frame {
+  width: 150px;
+  height: 200px;
+  border-radius: 13px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.2em;
+  border: solid black 0.5px;
+}
+
+.thumbnail {
+  height: 200px;
+}
+
+.content-info {
+  width: 60%;
+}
+
+.content-attr {
+  margin-bottom: 0.8vh;
+}
+
 .title {
   font-size: 1.5rem;
   font-weight: 600;
@@ -218,29 +245,7 @@ main {
   font-weight: 400;
 }
 
-.thumbnail-frame {
-  width: 150px;
-  height: 200px;
-  border-radius: 13px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2.2em;
-  border: solid black 0.5px;
-}
-
-.content-info {
-  width: 60%;
-}
-
-.thumbnail {
-  height: 210px;
-}
-
-.cont {
-  margin-bottom: 0.8vh;
-}
+/* -- content layout -- */
 
 .content:nth-child(2) {
   page-break-after: always;
@@ -250,3 +255,5 @@ main {
 .content:nth-child(2) {
   margin-top: 0;
 }
+
+/* -- ------- -- */
