@@ -157,9 +157,6 @@ main {
 
 /* ---- content ---- */
 
-.main-section {
-}
-
 .content-wrapper {
   width: 100%;
   margin: auto;
@@ -188,13 +185,12 @@ main {
 .thumbnail-frame {
   width: 9.375rem;
   height: 12.5rem;
-  border-radius: 13px;
+  border-radius: 10px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 2.1em;
-  border: solid black 0.5px;
 }
 
 .thumbnail {
