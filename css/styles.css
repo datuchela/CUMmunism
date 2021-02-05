@@ -24,7 +24,7 @@ header {
   justify-content: space-between;
   align-items: center;
   min-height: 12vh;
-  width: 93.5%;
+  width: 94.5%;
   margin: auto;
 }
 
@@ -57,23 +57,8 @@ header {
   color: #30ff8f;
 }
 
-.userpanel {
-  width: 20%;
-}
-
-/* ---- aside --- */
-
-aside {
-  background-color: #141414;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex: 1;
-}
-
 .search {
   position: relative;
-  margin: 10vh 0 5vh 0;
 }
 
 #search {
@@ -86,7 +71,7 @@ aside {
   font-size: 1em;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  text-indent: 2.55rem;
+  text-indent: 0rem;
 }
 
 #search::placeholder {
@@ -103,26 +88,52 @@ aside {
 
 .lupa {
   position: absolute;
-  top: 0.82rem;
-  left: 1.8rem;
+  top: 12px;
+  right: 32px;
   z-index: 1;
+}
+
+/* ---- aside --- */
+
+aside {
+  background-color: #141414;
+  flex: 1;
+  min-height: 150vh;
+}
+
+.sidebar-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5.5vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 12vh;
+}
+
+.user-panel {
+  border-radius: 13px;
+  width: 15rem;
+  height: 7rem;
+  background-color: #252525;
+  margin-bottom: 5vh;
 }
 
 .categories {
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .category {
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 4.5vh;
+  font-size: 1.22rem;
+  font-weight: 500;
+  margin-bottom: 4vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .main-section {
@@ -134,17 +145,6 @@ main {
   display: flex;
 }
 
-#presentation,
-#layers,
-#microphone,
-#trophy {
-  fill: white;
-}
-
-.category:hover #presentation,
-.category:hover #layers,
-.category:hover #microphone,
-.category:hover #trophy,
 .category:hover {
   color: #30ff8f;
   fill: #30ff8f;
@@ -163,7 +163,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 5.5vh;
   flex-flow: row wrap;
 }
 
@@ -260,6 +260,6 @@ main {
     font-size: 12px;
   }
   .icons {
-    width: 25px;
+    width: 23px;
   }
 }
